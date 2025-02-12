@@ -1,6 +1,6 @@
 # MEAP
 
-This repository contains the official implementation of "Mask-Enhanced Autoregressive Prediction: Pay Less Attention to Learn More".
+This repository contains the official implementation of "[Mask-Enhanced Autoregressive Prediction: Pay Less Attention to Learn More](https://arxiv.org/abs/2502.07490)".
 
 ## 📋 Table of Contents
 - [MEAP-Pretrain](#MEAP-Pretrain)
@@ -109,7 +109,7 @@ We have placed some sample data in the 'c4_bin' folder. Please note that this is
 If your setup comprises two nodes, each with 1 GPUs, you can initiate pretraining with the following commands:
 
 ```bash
-cd pretrain
+cd MEAP-Pretrain
 sh run_one_node.sh  ../pretrained/meap_1b.py 
 ```
 If you want to modify the number of GPUs to be used, please simultaneously modify the `--devices` parameter in `run_one_node.sh`, the `num_of_devices` parameter  and the default parameter of `devices` in the `setup` function in `meap_1b.py`.
@@ -167,6 +167,7 @@ bash ./script/MEAP-SFT.sh
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 ## Acknowledgments
