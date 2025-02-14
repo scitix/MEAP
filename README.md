@@ -168,7 +168,15 @@ bash ./script/MEAP-SFT.sh
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-
+## Cite as
+```
+@article{zhuang2025mask,
+  title={Mask-Enhanced Autoregressive Prediction: Pay Less Attention to Learn More},
+  author={Zhuang, Xialie and Jia, Zhikai and Li, Jianjin and Zhang, Zhenyu and Shen, Li and Cao, Zheng and Liu, Shiwei},
+  journal={arXiv preprint arXiv:2502.07490},
+  year={2025}
+}
+```
 
 ## Acknowledgments
 
