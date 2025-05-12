@@ -2,6 +2,8 @@
 
 This repository contains the official implementation of "[Mask-Enhanced Autoregressive Prediction: Pay Less Attention to Learn More](https://arxiv.org/abs/2502.07490)".
 
+**2025-05-01: MEAP is accepted to ICML 2025!**
+
 ## 📋 Table of Contents
 - [MEAP-Pretrain](#MEAP-Pretrain)
 - [MEAP-Sft](#MEAP-Sft)
